@@ -1,0 +1,196 @@
+@font-face {
+  font-family: "Grandesign Neue Roman";
+  src: url("/fonts/GrandesignNeue/Grandesign_Neue_Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("/fonts/Arial/Arial-ItalicMT.woff2") format("woff2"),
+    url("/fonts/Arial/Arial-ItalicMT.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("/fonts/Arial/ArialMT.woff2") format("woff2"),
+    url("/fonts/Arial/ArialMT.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("/fonts/Arial/Arial-BoldItalicMT.woff2") format("woff2"),
+    url("/fonts/Arial/Arial-BoldItalicMT.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("/fonts/Arial/ArialNarrow-BoldItalic.woff2") format("woff2"),
+    url("/fonts/Arial/ArialNarrow-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("/fonts/Arial/ArialNarrow-Bold.woff2") format("woff2"),
+    url("/fonts/Arial/ArialNarrow-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("/fonts/Arial/ArialNarrow-Italic.woff2") format("woff2"),
+    url("/fonts/Arial/ArialNarrow-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial Narrow";
+  src: url("/fonts/Arial/ArialNarrow.woff2") format("woff2"),
+    url("/fonts/Arial/ArialNarrow.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Arial";
+  src: url("/fonts/Arial/Arial-BoldMT.woff2") format("woff2"),
+    url("/fonts/Arial/Arial-BoldMT.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-LightItalic.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF Super";
+  src: url("/fonts/ArgentCF/ArgentCF-Super.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-Super.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-Thin.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-ThinItalic.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-Bold.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-Light.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-DemiBold.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-ExtraBold.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-BoldItalic.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-RegularItalic.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-Regular.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-DemiBoldItalic.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("/fonts/ArgentCF/ArgentCF-ExtraBoldItalic.woff2") format("woff2"),
+    url("/fonts/ArgentCF/ArgentCF-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+  font-display: swap;
+}

@@ -1,0 +1,103 @@
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-LightItalic.woff2") format("woff2"),
+    url("ArgentCF-LightItalic.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Argent CF Super";
+  src: url("ArgentCF-Super.woff2") format("woff2"),
+    url("ArgentCF-Super.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-Thin.woff2") format("woff2"),
+    url("ArgentCF-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-ThinItalic.woff2") format("woff2"),
+    url("ArgentCF-ThinItalic.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-Bold.woff2") format("woff2"),
+    url("ArgentCF-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-Light.woff2") format("woff2"),
+    url("ArgentCF-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-DemiBold.woff2") format("woff2"),
+    url("ArgentCF-DemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-ExtraBold.woff2") format("woff2"),
+    url("ArgentCF-ExtraBold.woff") format("woff");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-BoldItalic.woff2") format("woff2"),
+    url("ArgentCF-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-RegularItalic.woff2") format("woff2"),
+    url("ArgentCF-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-Regular.woff2") format("woff2"),
+    url("ArgentCF-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-DemiBoldItalic.woff2") format("woff2"),
+    url("ArgentCF-DemiBoldItalic.woff") format("woff");
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Argent CF";
+  src: url("ArgentCF-ExtraBoldItalic.woff2") format("woff2"),
+    url("ArgentCF-ExtraBoldItalic.woff") format("woff");
+  font-weight: 800;
+  font-style: italic;
+}

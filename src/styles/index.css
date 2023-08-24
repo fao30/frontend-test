@@ -1,0 +1,243 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    @apply text-6xl md:text-7xl;
+  }
+  h2 {
+    @apply text-5xl md:text-6xl;
+  }
+  h3 {
+    @apply text-4xl md:text-5xl;
+  }
+  h4 {
+    @apply text-3xl md:text-4xl;
+  }
+  h5 {
+    @apply text-2xl md:text-3xl;
+  }
+  h6 {
+    @apply text-xl md:text-2xl font-arial;
+  }
+  p {
+    @apply font-arial leading-6;
+  }
+}
+
+@layer components {
+  .margined-scroll {
+    @apply scroll-m-16;
+  }
+  /* main rules */
+  .main-padding {
+    @apply xl:px-longer xl:py-normal p-shorter;
+  }
+  .main-padding-x {
+    @apply xl:px-longer px-shorter;
+  }
+  .main-padding-l {
+    @apply xl:pl-longer pl-shorter;
+  }
+  .main-padding-r {
+    @apply xl:pr-longer pr-shorter;
+  }
+  .main-padding-y {
+    @apply xl:py-normal py-shorter;
+  }
+  .main-padding-b {
+    @apply xl:pb-normal pb-shorter;
+  }
+  .main-padding-t {
+    @apply xl:pt-normal pt-shorter;
+  }
+  .main-padding-x-admin {
+    @apply pl-[4.5rem] md:pl-longer3 xl:pr-longer pr-shorter;
+  }
+  /* size variants for p and label tags, if it's only p or label tag without className, the size is text-base */
+  .p-bigger2 {
+    @apply text-xl;
+  }
+  .p-bigger {
+    @apply text-lg;
+  }
+  .p-smaller {
+    @apply text-sm;
+  }
+  .p-smaller2 {
+    @apply text-xs;
+  }
+  /* animation  */
+  .animate-button-shadow {
+    @apply hover:-translate-x-1 hover:-translate-y-1;
+  }
+  .animate-transform {
+    @apply transition-transform duration-300;
+  }
+  .animate-shorter {
+    @apply transition-all;
+  }
+  .animate {
+    @apply transition-all duration-300;
+  }
+  .animate-longer {
+    @apply transition-all duration-500;
+  }
+  .animate-longer2 {
+    @apply transition-all duration-700;
+  }
+  .animate-longer3 {
+    @apply transition-all duration-1000;
+  }
+  /* fixed positions for absolute or fixed position */
+  .centered {
+    @apply top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2;
+  }
+  .centered-bottom {
+    @apply bottom-0 left-1/2 -translate-x-1/2;
+  }
+  .centered-top {
+    @apply top-0 left-1/2 -translate-x-1/2;
+  }
+  .centered-left {
+    @apply top-1/2 left-0 -translate-y-1/2;
+  }
+  .centered-right {
+    @apply top-1/2 right-0 -translate-y-1/2;
+  }
+  .centered-horizontal {
+    @apply left-1/2 -translate-x-1/2
+  }
+  /* font sizes */
+  .heading {
+    /* use h2 */
+    @apply font-argentcf font-semibold;
+  }
+  .sub-heading {
+    /* use p */
+    @apply font-arial p-bigger2 tracking-wide;
+  }
+  .content-heading {
+    /* use h3 */
+    @apply font-argentcf;
+  }
+  .content {
+    @apply md:p-bigger whitespace-pre-line;
+  }
+  .h1 {
+    @apply text-6xl md:text-7xl;
+  }
+  .h2 {
+    @apply text-5xl md:text-6xl;
+  }
+  .h3 {
+    @apply text-4xl md:text-5xl;
+  }
+  .h4 {
+    @apply text-3xl md:text-4xl;
+  }
+  .h5 {
+    @apply text-2xl md:text-3xl;
+  }
+  .h6 {
+    @apply text-xl md:text-2xl;
+  }
+  .p {
+    @apply font-arial leading-6;
+  }
+  .img-header {
+    @apply w-full h-72 lg:h-[30rem] object-cover;
+  }
+  .img-header-sticky {
+    @apply w-full h-72 lg:h-[23.5rem] object-cover;
+  }
+  .underlined-crayola {
+    @apply underline text-crayola italic;
+  }
+}
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  button,
+  a,
+  label,
+  img {
+    @apply select-none;
+  }
+  input,
+  textarea,
+  button,
+  a {
+    @apply outline-none active:outline-none focus:outline-none;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  label,
+  p,
+  a,
+  button {
+    @apply animate;
+  }
+}
+
+html {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+html::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0px;
+}
+
+.bg-animate {
+  background-size: 400% 400%;
+  animation: wave 3s infinite ease-in-out;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* HIDE ARROWS FOR TYPE NUMBER */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.gradient-spacecadet {
+  background: var(--gradient-spacecadet, linear-gradient(135deg, #1A334F 0%, #324963 33.33%, #102032 66.67%, #1A334F 100%));
+}
+
+.gradient-border {
+  border: 4px solid;
+  border-image: linear-gradient(150deg,#FFFFFF,#FFFFFF00, #FFFFFF);
+  border-image-slice: 1;
+}
